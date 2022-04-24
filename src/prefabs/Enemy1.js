@@ -5,7 +5,7 @@ class Enemy1 extends Phaser.GameObjects.Sprite {
         scene.add.existing(this);
 
         // Set enemy1 speed
-        this.moveSpeed = 7;
+        this.moveSpeed = 5;
     }
     update() {
         // Move enemy to the right
